@@ -1,3 +1,89 @@
+body{
+    margin: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h1{
-    color: blue;
+    font-size: 40px;
+}
+.nam-orange{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgba(238, 60, 15, 0.986);
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 1px;
+
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.short-width{
+    float: left;
+    width: 30%;
+    margin-left: 5px;
+    padding-left: 2%;
+}
+.img-width{
+    width: 90%;
+}
+  .sec-height{
+      height: 500px;
+  }
+  .h3-blue{
+      color: darkblue;
+  }  
+.pic-width{
+    width: 100%;
+}
+.project-area{
+    height: 500px;
+    box-shadow:10px,10px,40px darkgray;
+    border: rgba(169, 169, 169, 0.767) solid;
+    border-radius: 2px;
+    
+}
+h2{
+    text-align: center;
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container .btn{
+    text-decoration: none;
+    background-color: rgba(238, 60, 15, 0.986);
+    font-weight: 600;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 3px;
+    border: none;
+    position: inherit;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ses-poth{
+    float: right;
+    width: 5%;
+    
+    padding-right: 5px;
+}
+#center{
+    text-align: center;
+}
+footer{
+    height: 200px;
 }
